@@ -101,13 +101,13 @@ void performAction(const char* direction) {
         moveUp();
     } else if (strcmp(direction, "down") == 0) {
         printf("down ");
-        moveDown();
+        //moveDown();
     } else if (strcmp(direction, "left") == 0) {
         printf("left ");
-        moveLeft();
+        //moveLeft();
     } else if (strcmp(direction, "right") == 0) {
         printf("right ");
-        moveRight();
+        //moveRight();
     }
 }
 

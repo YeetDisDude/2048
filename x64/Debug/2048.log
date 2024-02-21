@@ -32,8 +32,8 @@ D:\Folders\coding\C++\2048\2048\colors.h(28,1): warning C4005: 'BACKGROUND_RED':
 D:\Folders\coding\C++\2048\2048\main.cpp(33,47): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
 D:\Folders\coding\C++\2048\2048\main.cpp(33,62): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
 D:\Folders\coding\C++\2048\2048\main.cpp(37,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-D:\Folders\coding\C++\2048\2048\main.cpp(142,31): warning C4474: 'printf' : too many arguments passed for format string
-  D:\Folders\coding\C++\2048\2048\main.cpp(142,31):
+D:\Folders\coding\C++\2048\2048\main.cpp(147,31): warning C4474: 'printf' : too many arguments passed for format string
+  D:\Folders\coding\C++\2048\2048\main.cpp(147,31):
   placeholders and their parameters expect 0 variadic arguments, but 1 were provided
   
   2048.vcxproj -> D:\Folders\coding\C++\2048\2048\x64\Debug\2048.exe
