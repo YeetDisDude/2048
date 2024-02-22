@@ -184,6 +184,7 @@ int main() {
     matrix[randCol][randRow] = startingBlock;   matrix[randCol2][randRow2] = startingBlock; // set 2 random matrices to startingBlock
 
     while (!gameOver) {
+        printf("              "); draw("2048", BACKGROUND_LIGHT_YELLOW); printf("\n");
         renderTiles();
         printf("  ");
         draw("Score: ", BACKGROUND_WHITE);
