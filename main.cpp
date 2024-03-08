@@ -16,6 +16,14 @@ int startingBlock = 2;
 
 HANDLE hConsole = NULL;
 CONSOLE_SCREEN_BUFFER_INFO consoleInfo;
+
+void ClearScreen() {
+    COORD cursorPosition;
+    cursorPosition.X = 0;
+    cursorPosition.Y = 0;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
+}
+
 void draw(const char* text, int color) {
     GetConsoleScreenBufferInfo(hConsole, &consoleInfo);
     SetConsoleTextAttribute(hConsole, color);
@@ -189,8 +197,8 @@ int main() {
         printf("  ");
         draw("Score: ", BACKGROUND_WHITE);
         draw(std::to_string(score).c_str(), BACKGROUND_WHITE); printf("\n");
-        Sleep(500);
-        system("cls");
+        Sleep(100);
+        ClearScreen();
         if (gameOver) {
             system("cls"); renderTiles();
             printf("  "); draw("Score: ", BACKGROUND_WHITE); draw(std::to_string(score).c_str(), BACKGROUND_WHITE); printf("\n"); // show score

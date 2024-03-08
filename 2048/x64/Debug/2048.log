@@ -1,0 +1,39 @@
+﻿  main.cpp
+D:\Folders\coding\C++\2048\2048\colors.h(8,1): warning C4005: 'FOREGROUND_BLUE': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(35,1):
+  see previous definition of 'FOREGROUND_BLUE'
+  
+D:\Folders\coding\C++\2048\2048\colors.h(9,1): warning C4005: 'FOREGROUND_GREEN': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(36,1):
+  see previous definition of 'FOREGROUND_GREEN'
+  
+D:\Folders\coding\C++\2048\2048\colors.h(10,1): warning C4005: 'FOREGROUND_RED': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(37,1):
+  see previous definition of 'FOREGROUND_RED'
+  
+D:\Folders\coding\C++\2048\2048\colors.h(26,1): warning C4005: 'BACKGROUND_BLUE': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(39,1):
+  see previous definition of 'BACKGROUND_BLUE'
+  
+D:\Folders\coding\C++\2048\2048\colors.h(27,1): warning C4005: 'BACKGROUND_GREEN': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(40,1):
+  see previous definition of 'BACKGROUND_GREEN'
+  
+D:\Folders\coding\C++\2048\2048\colors.h(28,1): warning C4005: 'BACKGROUND_RED': macro redefinition
+  (compiling source file 'main.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\consoleapi2.h(41,1):
+  see previous definition of 'BACKGROUND_RED'
+  
+D:\Folders\coding\C++\2048\2048\main.cpp(41,47): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Folders\coding\C++\2048\2048\main.cpp(41,62): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Folders\coding\C++\2048\2048\main.cpp(45,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Folders\coding\C++\2048\2048\main.cpp(150,31): warning C4474: 'printf' : too many arguments passed for format string
+  D:\Folders\coding\C++\2048\2048\main.cpp(150,31):
+  placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  
+  2048.vcxproj -> D:\Folders\coding\C++\2048\2048\x64\Debug\2048.exe
